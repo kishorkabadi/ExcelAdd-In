@@ -1,0 +1,50 @@
+{
+  "name": "excel-enterprise-addin",
+  "version": "1.0.0",
+  "description": "Enterprise Excel Add-in with React and TypeScript",
+  "main": "index.js",
+  "scripts": {
+    "start": "office-addin-dev-certs install && react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "lint": "eslint src",
+    "format": "prettier --write src"
+  },
+  "dependencies": {
+    "@fluentui/react": "^8.104.2",
+    "@fluentui/react-icons": "^1.1.227",
+    "@microsoft/office-js": "^1.1.76",
+    "@microsoft/office-js-helpers": "^1.0.7",
+    "@tanstack/react-query": "^5.28.0",
+    "axios": "^1.6.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1",
+    "zustand": "^4.4.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.37",
+    "@types/react-dom": "^18.2.15",
+    "@typescript-eslint/eslint-plugin": "^6.10.0",
+    "@typescript-eslint/parser": "^6.10.0",
+    "eslint": "^8.53.0",
+    "eslint-plugin-react": "^7.33.2",
+    "office-addin-dev-certs": "^1.14.4",
+    "office-addin-sso-helper": "^1.2.26",
+    "prettier": "^3.0.3",
+    "typescript": "^5.2.2"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
